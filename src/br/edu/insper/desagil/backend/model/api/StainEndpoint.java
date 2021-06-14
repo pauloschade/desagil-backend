@@ -8,6 +8,8 @@
 package br.edu.insper.desagil.backend.model.api;
 
 import java.util.Arrays;
+
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,8 +19,8 @@ import br.edu.insper.desagil.backend.core.exception.NotFoundException;
 import br.edu.insper.desagil.backend.model.Artist;
 import br.edu.insper.desagil.backend.model.CollaborationTrack;
 import br.edu.insper.desagil.backend.model.Playlist;
-import br.edu.insper.desagil.backend.model.Track;
 import br.edu.insper.desagil.backend.model.Stain;
+import br.edu.insper.desagil.backend.model.Track;
 
 public class StainEndpoint extends Endpoint<Stain> {
 	private Map<String, Stain> stains;

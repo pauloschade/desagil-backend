@@ -12,8 +12,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.edu.insper.desagil.backend.model.Track;
-
 public class Stain {
 	private List<Map<String, String>> tracks;
 	private double rating;
